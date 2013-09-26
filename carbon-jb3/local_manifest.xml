@@ -85,6 +85,14 @@
   <remove-project name="CyanogenMod/android_kernel_samsung_tuna"  />
   <remove-project name="android_frameworks_base" />
 <!--  <remove-project name="android_frameworks_native" /> -->
+  <remove-project name="android_vendor_carbon"  />
+<!--  <remove-project name="platform/frameworks/opt/mms" /> -->
+  <remove-project name="android_packages_apps_Dialer"  />
+  <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
+  <remove-project name="SlimRoms/packages_apps_Mms" />
+  <remove-project name="android_packages_apps_Phone" />
+  <remove-project name="platform/packages/apps/PhoneCommon" />
+  <remove-project name="android_development" />
 
   <remote  name="github_kimjisoo"
            fetch="git://github.com/kimjisoo" />
@@ -92,7 +100,8 @@
 <project name="android_kernel_bn_omap" path="kernel/bn/omap" remote="github_kimjisoo" revision="jb3" />
 <project name="android_device_bn_common" path="device/bn/common" remote="github_kimjisoo" revision="jb3" />
 <project name="android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx" remote="github_kimjisoo" revision="jb3" />
-<!-- <project name="android_frameworks_native" path="frameworks/native" remote="github_kimjisoo" revision="jb3" /> -->
 <project name="android_frameworks_base" path="frameworks/base" remote="github_kimjisoo" revision="jb3" />
-
+<project path="vendor/carbon" name="android_vendor_carbon" remote="github_kimjisoo" revision="jb3" />
+<project path="development" name="android_development" remote="github_kimjisoo" revision="jb3" />
 </manifest>
+
