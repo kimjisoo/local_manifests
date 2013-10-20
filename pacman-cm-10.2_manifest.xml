@@ -4,11 +4,10 @@
   <remote  name="github_kimjisoo"
            fetch="git://github.com/kimjisoo" />
 
-<remove-project name="android_vendor_pac" />
+<!--<remove-project name="android_vendor_pac" />-->
 <remove-project name="android_frameworks_base" />
 
-<project path="vendor/pac" name="android_vendor_pac" remote="github_kimjisoo" />
-<project path="frameworks/base" name="android_frameworks_base-pac" remote="github_kimjisoo" />
+<!--<project path="vendor/pac" name="android_vendor_pac" remote="github_kimjisoo" revision="cm-10.2"/>-->
+<project path="frameworks/base" name="android_frameworks_base-pac" remote="github_kimjisoo" revision="cm-10.2" />
 
 </manifest>
-

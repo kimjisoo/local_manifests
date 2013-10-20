@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remove-project name="platform/hardware/ti/omap4xxx" />
 <remove-project name="CarbonDev/android_device_asus_deb" />
 <remove-project name="CarbonDev/android_device_asus_flo" />
 <remove-project name="CarbonDev/android_device_asus_grouper" />
@@ -91,6 +90,11 @@
   <remove-project name="CarbonDev/android_packages_apps_Phone" />
   <remove-project name="CarbonDev/android_development" />
 
+  <remove-project name="CarbonDev/android_packages_apps_CarbonFibers" />
+  <remove-project name="CarbonDev/android_packages_apps_Settings" />
+<remove-project name="platform/hardware/ti/omap4xxx" />
+
+
   <remote  name="github_kimjisoo"
            fetch="git://github.com/kimjisoo" />
 <project name="android_device_bn_ovation" path="device/bn/ovation" remote="github_kimjisoo" revision="jb3" />
@@ -101,5 +105,8 @@
 <project name="android_frameworks_base" path="frameworks/base" remote="github_kimjisoo" revision="jb3" />
 <project path="vendor/carbon" name="android_vendor_carbon" remote="github_kimjisoo" revision="jb3" />
 <project path="development" name="android_development" remote="github_kimjisoo" revision="jb3" />
+<!--<project path="vendor/bn" name="proprietary_vendor_bn" remote="github_kimjisoo" revision="jb3" />-->
+<project path="packages/apps/CarbonFibers" name="android_packages_apps_CarbonFibers" remote="github_kimjisoo" revision="jb3" />
+<project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="github_kimjisoo" revision="jb3" />
 </manifest>
 
