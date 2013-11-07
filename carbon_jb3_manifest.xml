@@ -85,7 +85,8 @@
   <remove-project name="CarbonDev/android_frameworks_base" />
   <remove-project name="CarbonDev/android_vendor_carbon"  />
   <remove-project name="CarbonDev/android_packages_apps_Dialer"  />
-  <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
+
+  <remove-project name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <remove-project name="SlimRoms/packages_apps_Mms" />
   <remove-project name="CarbonDev/android_packages_apps_Phone" />
   <remove-project name="CarbonDev/android_development" />
@@ -102,6 +103,7 @@
 <project name="android_kernel_bn_omap" path="kernel/bn/omap" remote="github_kimjisoo" revision="jb3" />
 <project name="android_device_bn_common" path="device/bn/common" remote="github_kimjisoo" revision="jb3" />
 <project name="android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx" remote="github_kimjisoo" revision="jb3" />
+<!--<project name="android_frameworks_base" path="frameworks/base" remote="github_kimjisoo" revision="jb3-mw" /> -->
 <project name="android_frameworks_base" path="frameworks/base" remote="github_kimjisoo" revision="jb3" />
 <project path="vendor/carbon" name="android_vendor_carbon" remote="github_kimjisoo" revision="jb3" />
 <project path="development" name="android_development" remote="github_kimjisoo" revision="jb3" />
