@@ -7,7 +7,7 @@
   <remote  name="github_omnirom"
            fetch="git://github.com/omnirom" />
 <project name="android_device_bn_ovation" path="device/bn/ovation" remote="github_kimjisoo" revision="kk" />
-<!--<project name="android_device_bn_hummingbird" path="device/bn/hummingbird" remote="github_kimjisoo" revision="jb3" />-->
+<project name="android_device_bn_hummingbird" path="device/bn/hummingbird" remote="github_kimjisoo" revision="kk" />
 <project name="android_kernel_bn_omap" path="kernel/bn/omap" remote="github_kimjisoo" revision="kk" />
 <project name="android_device_bn_common" path="device/bn/common" remote="github_kimjisoo" revision="kk" />
 <project name="android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx" remote="github_kimjisoo" revision="kk" />
