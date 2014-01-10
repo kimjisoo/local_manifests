@@ -24,9 +24,9 @@
   <remove-project  name="CarbonDev/android_packages_apps_Settings" />
   <remove-project name="CarbonDev/android_vendor_carbon"  />
   <project path="vendor/carbon" name="android_vendor_carbon" remote="github_kimjisoo" revision="kk" />
-  <project path="frameworks/base" name="CarbonDev/android_frameworks_base-carbon" remote="github_kimjisoo" revision="kk" />
-  <project path="packages/apps/CarbonFibers" name="CarbonDev/android_packages_apps_CarbonFibers-carbon" remote="github_kimjisoo" revision="kk" />
-  <project path="packages/apps/Settings" name="CarbonDev/android_packages_apps_Settings-carbon" remote="github_kimjisoo" revision="kk" />
+  <project path="frameworks/base" name="android_frameworks_base-carbon" remote="github_kimjisoo" revision="kk" />
+  <project path="packages/apps/CarbonFibers" name="android_packages_apps_CarbonFibers-carbon" remote="github_kimjisoo" revision="kk" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings-carbon" remote="github_kimjisoo" revision="kk" />
 
 </manifest>
 
