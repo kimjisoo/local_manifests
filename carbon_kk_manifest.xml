@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github_kimjisoo"
+           fetch="git://github.com/kimjisoo" />
+
+  <remote  name="github_omnirom"
+           fetch="git://github.com/omnirom" />
+<project name="android_device_bn_ovation" path="device/bn/ovation" remote="github_kimjisoo" revision="kk" />
+<!--<project name="android_device_bn_hummingbird" path="device/bn/hummingbird" remote="github_kimjisoo" revision="jb3" />-->
+<project name="android_kernel_bn_omap" path="kernel/bn/omap" remote="github_kimjisoo" revision="kk" />
+<project name="android_device_bn_common" path="device/bn/common" remote="github_kimjisoo" revision="kk" />
+<project name="android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx" remote="github_kimjisoo" revision="kk" />
+<project name="android_hardware_ti_wlan" path="hardware/ti/wlan" remote="github_kimjisoo" revision="kk" />
+
+<!--<remove-project name="proprietary_vendor_bn" />-->
+<project path="vendor/bn" name="proprietary_vendor_bn" remote="github_kimjisoo" revision="kk" />
+
+<!--  <remove-project name="CyanogenMod/android_bootable_recovery" />-->
+<!--  <project path="bootable/recovery" name="android_bootable_recovery" remote="github_omnirom" revision="android-4.4" />-->
+
+  <remove-project name="CarbonDev/android_frameworks_base" />
+  <remove-project name="CarbonDev/android_packages_apps_CarbonFibers" />
+  <remove-project  name="CarbonDev/android_packages_apps_Settings" />
+  <remove-project name="CarbonDev/android_vendor_carbon"  />
+  <project path="vendor/carbon" name="android_vendor_carbon" remote="github_kimjisoo" revision="kk" />
+  <project path="frameworks/base" name="CarbonDev/android_frameworks_base-carbon" remote="github_kimjisoo" revision="kk" />
+  <project path="packages/apps/CarbonFibers" name="CarbonDev/android_packages_apps_CarbonFibers-carbon" remote="github_kimjisoo" revision="kk" />
+  <project path="packages/apps/Settings" name="CarbonDev/android_packages_apps_Settings-carbon" remote="github_kimjisoo" revision="kk" />
+
+</manifest>
+
+<!--<project path="vendor/bn" name="proprietary_vendor_bn" remote="github_kimjisoo" revision="jb3" />-->
