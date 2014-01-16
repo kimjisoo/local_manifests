@@ -16,8 +16,8 @@
 <!--<remove-project name="proprietary_vendor_bn" />-->
 <project path="vendor/bn" name="proprietary_vendor_bn" remote="github_kimjisoo" revision="kk" />
 
-<!--  <remove-project name="CyanogenMod/android_bootable_recovery" />-->
-<!--  <project path="bootable/recovery" name="android_bootable_recovery" remote="github_omnirom" revision="android-4.4" />-->
+<!--<remove-project name="CyanogenMod/android_bootable_recovery" />-->
+<!--<project path="bootable/recovery" name="android_bootable_recovery" remote="github_omnirom" revision="android-4.4" />-->
 
   <remove-project name="CarbonDev/android_frameworks_base" />
   <remove-project name="CarbonDev/android_packages_apps_CarbonFibers" />
