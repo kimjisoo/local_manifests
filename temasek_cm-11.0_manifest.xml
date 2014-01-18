@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="temasek/android_device_asus_tilapia" path="device/asus/tilapia" remote="github" revision="cm-11.0" />
+  <remote fetch="https://github.com/TheMuppets/" name="TheMuppets" review="http://review.cyanogenmod.org/" />
+  <remove-project name="CyanogenMod/android_frameworks_base" />
+  <project name="temasek/android_frameworks_base/" path="frameworks/base" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_packages_apps_Settings" />
+  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_vendor_cm" />
+  <project name="temasek/android_vendor_cm/" path="vendor/cm" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_frameworks_native" />
+  <project name="temasek/android_frameworks_native/" path="frameworks/native" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_system_vold" />
+  <project name="temasek/android_system_vold/" path="system/vold" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
+  <project name="temasek/android_frameworks_opt_telephony/" path="frameworks/opt/telephony" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_build" />
+  <project name="temasek/android_build/" path="build" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_packages_providers_MediaProvider" />
+  <project name="temasek/android_packages_providers_MediaProvider/" path="packages/providers/MediaProvider" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_packages_apps_InCallUI" />
+  <project name="temasek/android_packages_apps_InCallUI/" path="packages/apps/InCallUI" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_packages_apps_Dialer" />
+  <project name="temasek/android_packages_apps_Dialer/" path="packages/apps/Dialer" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_art" />
+  <project name="temasek/android_art/" path="art" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_system_core" />
+  <project name="temasek/android_system_core/" path="system/core" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_packages_services_Telephony" />
+  <project name="temasek/android_packages_services_Telephony/" path="packages/services/Telephony" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_frameworks_av" />
+  <project name="temasek/android_frameworks_av/" path="frameworks/av" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_packages_apps_Browser" />
+  <project name="temasek/android_packages_apps_Browser/" path="packages/apps/Browser" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_packages_apps_Gallery2" />
+  <project name="temasek/android_packages_apps_Gallery2/" path="packages/apps/Gallery2" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_packages_apps_Email" />
+  <project name="temasek/android_packages_apps_Email/" path="packages/apps/Email" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_packages_apps_DeskClock" />
+  <project name="temasek/android_packages_apps_DeskClock/" path="packages/apps/DeskClock" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_frameworks_opt_timezonepicker" />
+  <project name="temasek/android_frameworks_opt_timezonepicker/" path="frameworks/opt/timezonepicker" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_packages_inputmethods_LatinIME" />
+  <project name="temasek/android_packages_inputmethods_LatinIME/" path="packages/inputmethods/LatinIME" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_packages_apps_Calculator" />
+  <project name="temasek/android_packages_apps_Calculator/" path="packages/apps/Calculator" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_development" />
+  <project name="temasek/android_development/" path="development" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_packages_apps_ContactsCommon" />
+  <project name="temasek/android_packages_apps_ContactsCommon/" path="packages/apps/ContactsCommon" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_packages_apps_Contacts" />
+  <project name="temasek/android_packages_apps_Contacts/" path="packages/apps/Contacts" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_packages_apps_Mms" />
+  <project name="temasek/android_packages_apps_Mms/" path="packages/apps/Mms" remote="github" revision="cm-11.0" />
+  <remove-project name="CyanogenMod/android_packages_apps_Camera2" />
+  <project name="temasek/android_packages_apps_Camera2/" path="packages/apps/Camera2" remote="github" revision="cm-11.0" />
+
+  <remote  name="github_kimjisoo"
+           fetch="git://github.com/kimjisoo" />
+
+<project name="android_device_bn_ovation" path="device/bn/ovation" remote="github_kimjisoo" revision="cm-11.0" />
+<project name="android_device_bn_hummingbird" path="device/bn/hummingbird" remote="github_kimjisoo" revision="cm-11.0" />
+<project name="android_kernel_bn_omap" path="kernel/bn/omap" remote="github_kimjisoo" revision="cm-11.0" />
+<project name="android_device_bn_common" path="device/bn/common" remote="github_kimjisoo" revision="cm-11.0" />
+<project name="android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx" remote="github_kimjisoo" revision="cm-11.0" />
+<project name="android_hardware_ti_wlan" path="hardware/ti/wlan" remote="github_kimjisoo" revision="cm-11.0" />
+
+<!--<remove-project name="proprietary_vendor_bn" />-->
+<project path="vendor/bn" name="proprietary_vendor_bn" remote="github_kimjisoo" revision="cm-11.0" />
+
+
+<project name="android_packages_apps_Settings-temasek" path="packages/apps/Settings" remote="github_kimjisoo" revision="cm-11.0" />
+
+</manifest>
+
