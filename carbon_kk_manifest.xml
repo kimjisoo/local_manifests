@@ -8,13 +8,13 @@
            fetch="git://github.com/omnirom" />
 <project name="android_device_bn_ovation" path="device/bn/ovation" remote="github_kimjisoo" revision="kk" />
 <project name="android_device_bn_hummingbird" path="device/bn/hummingbird" remote="github_kimjisoo" revision="kk" />
-<project name="android_kernel_bn_omap" path="kernel/bn/omap" remote="github_kimjisoo" revision="kk" />
-<project name="android_device_bn_common" path="device/bn/common" remote="github_kimjisoo" revision="kk" />
-<project name="android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx" remote="github_kimjisoo" revision="kk" />
-<project name="android_hardware_ti_wlan" path="hardware/ti/wlan" remote="github_kimjisoo" revision="kk" />
+<project name="android_kernel_bn_omap" path="kernel/bn/omap" remote="github_kimjisoo" revision="cm-11.0" />
+<project name="android_device_bn_common" path="device/bn/common" remote="github_kimjisoo" revision="cm-11.0" />
+<project name="android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx" remote="github_kimjisoo" revision="cm-11.0" />
+<project name="android_hardware_ti_wlan" path="hardware/ti/wlan" remote="github_kimjisoo" revision="cm-11.0" />
 
 <!--<remove-project name="proprietary_vendor_bn" />-->
-<project path="vendor/bn" name="proprietary_vendor_bn" remote="github_kimjisoo" revision="kk" />
+<project path="vendor/bn" name="proprietary_vendor_bn" remote="github_kimjisoo" revision="cm-11.0" />
 
 <!--<remove-project name="CyanogenMod/android_bootable_recovery" />-->
 <!--<project path="bootable/recovery" name="android_bootable_recovery" remote="github_omnirom" revision="android-4.4" />-->
