@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!--- hlte -->
+  <project name="SlimRoms/device_qcom_common" path="device/qcom/common" remote="github" revision="kk4.4" />
+  <project name="SlimRoms/device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="kk4.4" />
+  <project name="SlimRoms/device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="github" revision="kk4.4" />
+  <project name="SlimRoms/hardware_qcom_display-caf-new" path="hardware/qcom/display-caf-new" remote="github" revision="kk4.4" />
+  <project name="SlimRoms/hardware_qcom_media-caf-new" path="hardware/qcom/media-caf-new" remote="github" revision="kk4.4" />
+  <project name="SlimRoms/hardware_qcom_audio-caf" path="hardware/qcom/audio-caf" remote="github" revision="kk4.4" />
+
+<!-- hlte but replaced with below -->
+<!--  <project name="SlimRoms/device_samsung_hlte" path="device/samsung/hlte" remote="github" revision="kk4.4" />
+  <project name="CyanogenMod/android_kernel_samsung_hlte" path="kernel/samsung/hlte" remote="github" revision="cm-11.0" />
+  <project name="SlimRoms/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="kk4.4" />-->
+
+<!-- hltektt -->
+  <project name="kimjisoo/android_device_samsung_hlte" path="device/samsung/hlte" remote="github" revision="slim-official-kk4.4" />
+  <project name="kimjisoo/android_kernel_samsung_hlte" path="kernel/samsung/hlte" remote="github" revision="temasek-v3" />
+  <project name="kimjisoo/proprietary_vendor_samsung/" path="vendor/samsung" remote="github" revision="slim-kk4.4" />
+
+<!-- for my own features -->
+  <remove-project path="frameworks/base" name="SlimRoms/frameworks_base" remote="github" revision="kk4.4-caf" />
+  <project path="frameworks/base" name="kimjisoo/frameworks_base-slim" remote="github" revision="kk4.4-caf-staging" />
+
+  <remove-project path="packages/apps/Settings" name="SlimRoms/packages_apps_Settings" remote="github" />
+  <project path="packages/apps/Settings" name="kimjisoo/packages_apps_Settings-slim" remote="github" revision="kk4.4-staging" />
+
+  <remove-project path="vendor/slim" name="SlimRoms/vendor_slim" remote="github" revision="kk4.4" />
+  <project path="vendor/slim" name="kimjisoo/vendor_slim-slim" remote="github" revision="kk4.4" />
+
+<!-- unwanted stuff -->
+  <remove-project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" />
+
+<!-- theme engine -->
+  <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="cm-11.0" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" remote="github" revision="cm-11.0" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" remote="github" revision="cm-11.0" />
+
+  <remove-project path="build" name="SlimRoms/android_build" remote="github" revision="kk4.4" />
+  <remove-project path="frameworks/native" name="SlimRoms/frameworks_native" remote="github" revision="kk4.4-caf" />
+  <remove-project path="packages/providers/MediaProvider" name="SlimRoms/packages_providers_MediaProvider" remote="github" revision="kk4.4" />
+
+  <project path="build" name="kimjisoo/android_build" remote="github" revision="kk4.4" />
+  <project path="frameworks/native" name="kimjisoo/frameworks_native" remote="github" revision="kk4.4-caf" />
+  <project path="packages/providers/MediaProvider" name="kimjisoo/packages_providers_MediaProvider" remote="github" revision="kk4.4" />
+
+  <remove-project path="external/skia" name="SlimRoms/android_external_skia" remote="github" revision="kk4.4" />
+  <project path="external/skia" name="CyanogenMod/android_external_skia" remote="github" revision="cm-11.0" />
+</manifest>

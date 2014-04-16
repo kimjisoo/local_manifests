@@ -3,31 +3,30 @@
 
   <remote  name="github_kimjisoo"
            fetch="git://github.com/kimjisoo" />
+  <remote  name="muppets"
+           fetch="git://github.com/TheMuppets" />
 
-  <remote  name="github_omnirom"
-           fetch="git://github.com/omnirom" />
-<project name="android_device_bn_ovation" path="device/bn/ovation" remote="github_kimjisoo" revision="kk" />
-<project name="android_device_bn_hummingbird" path="device/bn/hummingbird" remote="github_kimjisoo" revision="kk" />
-<project name="android_kernel_bn_omap" path="kernel/bn/omap" remote="github_kimjisoo" revision="cm-11.0" />
-<project name="android_device_bn_common" path="device/bn/common" remote="github_kimjisoo" revision="cm-11.0" />
-<project name="android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx" remote="github_kimjisoo" revision="cm-11.0" />
-<project name="android_hardware_ti_wlan" path="hardware/ti/wlan" remote="github_kimjisoo" revision="cm-11.0" />
+<!--<project name="android_device_bn_ovation" path="device/bn/ovation" remote="github_kimjisoo" revision="slim-kk4.4" />
+<project path="vendor/bn" name="proprietary_vendor_bn" remote="muppets" revision="cm-11.0" />-->
 
-<!--<remove-project name="proprietary_vendor_bn" />-->
-<project path="vendor/bn" name="proprietary_vendor_bn" remote="github_kimjisoo" revision="cm-11.0" />
+<remove-project name="platform/hardware/ti/omap4xxx" />
 
-<!--<remove-project name="CyanogenMod/android_bootable_recovery" />-->
-<!--<project path="bootable/recovery" name="android_bootable_recovery" remote="github_omnirom" revision="android-4.4" />-->
 
   <remove-project name="CarbonDev/android_frameworks_base" />
   <remove-project name="CarbonDev/android_packages_apps_CarbonFibers" />
-  <remove-project  name="CarbonDev/android_packages_apps_Settings" />
-  <remove-project name="CarbonDev/android_vendor_carbon"  />
-  <project path="vendor/carbon" name="android_vendor_carbon" remote="github_kimjisoo" revision="kk" />
-  <project path="frameworks/base" name="android_frameworks_base-carbon" remote="github_kimjisoo" revision="kk" />
-  <project path="packages/apps/CarbonFibers" name="android_packages_apps_CarbonFibers-carbon" remote="github_kimjisoo" revision="kk" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings-carbon" remote="github_kimjisoo" revision="kk" />
+  <remove-project name="CarbonDev/android_packages_apps_Settings" />
 
-</manifest>
 
+  <remote  name="github_kimjisoo"
+           fetch="git://github.com/kimjisoo" />
+
+<project name="android_device_bn_ovation" path="device/bn/ovation" remote="github_kimjisoo" revision="kk" />
+<project name="android_kernel_bn_omap" path="kernel/bn/omap" remote="github_kimjisoo" revision="cm-11.0" />
+<project name="CyanogenMod/android_device_bn_common" path="device/bn/common" remote="cm" revision="cm-11.0" />
+<project name="CyanogenMod/android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx" remote="cm" revision="cm-11.0" />
+<!--<project name="android_frameworks_base" path="frameworks/base" remote="github_kimjisoo" revision="jb3-mw" /> -->
+<project name="android_frameworks_base-carbon" path="frameworks/base" remote="github_kimjisoo" revision="kk4.4-slim" />
 <!--<project path="vendor/bn" name="proprietary_vendor_bn" remote="github_kimjisoo" revision="jb3" />-->
+<project path="packages/apps/Settings" name="android_packages_apps_Settings-carbon" remote="github_kimjisoo" revision="kk-slim" />
+<project path="vendor/bn" name="proprietary_vendor_bn" remote="github_kimjisoo" revision="cm-11.0" />
+</manifest>
