@@ -9,26 +9,37 @@
   <project name="SlimRoms/hardware_qcom_audio-caf" path="hardware/qcom/audio-caf" remote="github" revision="kk4.4" />
 
 <!-- hlte but replaced with below -->
-<!--  <project name="SlimRoms/device_samsung_hlte" path="device/samsung/hlte" remote="github" revision="kk4.4" />
+<!--
+  <project name="SlimRoms/device_samsung_hlte" path="device/samsung/hlte" remote="github" revision="kk4.4" />
   <project name="CyanogenMod/android_kernel_samsung_hlte" path="kernel/samsung/hlte" remote="github" revision="cm-11.0" />
-  <project name="SlimRoms/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="kk4.4" />-->
+  <project name="SlimRoms/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="kk4.4" />
+-->
 
 <!-- hltektt -->
   <project name="kimjisoo/android_device_samsung_hlte" path="device/samsung/hlte" remote="github" revision="slim-official-kk4.4" />
-  <project name="kimjisoo/android_kernel_samsung_hlte" path="kernel/samsung/hlte" remote="github" revision="cm-11.0" />
+  <project name="kimjisoo/android_kernel_samsung_hlte" path="kernel/samsung/hlte" remote="github" revision="temasek-v3" />
   <project name="kimjisoo/proprietary_vendor_samsung/" path="vendor/samsung" remote="github" revision="slim-kk4.4" />
 
 <!-- for my own features -->
   <remove-project path="frameworks/base" name="SlimRoms/frameworks_base" remote="github" revision="kk4.4-caf" />
-  <project path="frameworks/base" name="kimjisoo/frameworks_base-slim" remote="github" revision="kk4.4-caf-jisoo_v2" />
-
   <remove-project path="packages/apps/Settings" name="SlimRoms/packages_apps_Settings" remote="github" />
+
+<!--
+  <project path="frameworks/base" name="kimjisoo/frameworks_base-slim" remote="github" revision="test_tiles" />
+  <project path="packages/apps/Settings" name="kimjisoo/packages_apps_Settings-slim" remote="github" revision="test_tiles" />
+-->
+  <project path="frameworks/base" name="kimjisoo/frameworks_base-slim" remote="github" revision="kk4.4-caf-jisoo_v2" />
   <project path="packages/apps/Settings" name="kimjisoo/packages_apps_Settings-slim" remote="github" revision="kk4.4-jisoo_v2" />
+
+  <remove-project  name="SlimRoms/packages_apps_InCallUI" remote="github" />
+  <project path="packages/apps/InCallUI" name="kimjisoo/packages_apps_InCallUI-slim" remote="github" revision="kk4.4" />
+
 
   <remove-project path="vendor/slim" name="SlimRoms/vendor_slim" remote="github" revision="kk4.4" />
   <project path="vendor/slim" name="kimjisoo/vendor_slim-slim" remote="github" revision="kk4.4" />
 
 <!-- unwanted stuff -->
   <remove-project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" />
+
 
 </manifest>
