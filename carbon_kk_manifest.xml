@@ -23,9 +23,6 @@
   <remove-project name="CarbonDev/android_packages_apps_Settings" />-->
 
 
-  <remote  name="github_kimjisoo"
-           fetch="git://github.com/kimjisoo" />
-
 <project name="android_device_bn_ovation" path="device/bn/ovation" remote="github_kimjisoo" revision="kk" />
 <project name="android_kernel_bn_omap" path="kernel/bn/omap" remote="github_kimjisoo" revision="cm-11.0" />
 <project name="CyanogenMod/android_device_bn_common" path="device/bn/common" remote="cm" revision="cm-11.0" />
