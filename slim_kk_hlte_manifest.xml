@@ -18,13 +18,14 @@
   <remove-project path="packages/apps/Settings" name="SlimRoms/packages_apps_Settings" remote="github" />
   <remove-project path="vendor/slim" name="SlimRoms/vendor_slim" remote="github" revision="kk4.4" />
 
+  <project path="vendor/slim" name="kimjisoo/vendor_slim-slim" remote="github" revision="theme" />
+  <project path="frameworks/base" name="kimjisoo/frameworks_base" remote="github" revision="theme" />
+  <project path="packages/apps/Settings" name="kimjisoo/packages_apps_Settings-slim" remote="github" revision="theme" />
+
+<!--
   <project path="vendor/slim" name="kimjisoo/vendor_slim-slim" remote="github" revision="kk4.4" />
   <project path="frameworks/base" name="kimjisoo/frameworks_base" remote="github" revision="kk4.4-caf-jisoo_v3" />
   <project path="packages/apps/Settings" name="kimjisoo/packages_apps_Settings-slim" remote="github" revision="kk4.4-jisoo_v3" />
-
-<!--
-  <project path="frameworks/base" name="kimjisoo/frameworks_base" remote="github" revision="sidebar" />
-  <project path="packages/apps/Settings" name="kimjisoo/packages_apps_Settings-slim" remote="github" revision="sidebar" />
 -->
 
 <!-- unwanted stuff -->
@@ -32,5 +33,11 @@
 
 <!-- added stuff -->
 <!--  <project path="packages/apps/EOSWeather" name="AICP/packages_apps_EOSWeather" remote="github" revision="kitkat" />-->
+
+<!-- theme stuff -->
+  <project path="packages/apps/ThemeChooser" name="kimjisoo/android_packages_apps_ThemeChooser" remote="github" revision="cm-11.0" />
+  <project path="packages/providers/ThemesProvider" name="kimjisoo/android_packages_providers_ThemesProvider" remote="github" revision="cm-11.0" />
+  <remove-project path="external/skia" name="SlimRoms/android_external_skia" />
+  <project path="external/skia" name="kimjisoo/android_external_skia-cm" remote="github" revision="cm-11.0" />
 
 </manifest>
