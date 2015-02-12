@@ -15,9 +15,9 @@
   <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
 
-  <project path="vendor/bn" name="proprietary_vendor_bn" remote="github_kimjisoo" revision="cm-12.0" />
-  <project name="CyanogenMod/android_device_bn_ovation" path="device/bn/ovation" remote="github" />
-  <project name="CyanogenMod/android_device_bn_common" path="device/bn/common" remote="github" />
-  <project name="CyanogenMod/android_kernel_bn_omap" path="kernel/bn/omap" remote="github" />
-<
+  <project path="vendor/bn" name="TheMuppets/proprietary_vendor_bn" remote="github" revision="cm-12.0" />
+  <project name="CyanogenMod/android_device_bn_ovation" path="device/bn/ovation" remote="github" revision="cm-12.0" />
+  <project name="CyanogenMod/android_device_bn_common" path="device/bn/common" remote="github" revision="cm-12.0" />
+  <project name="CyanogenMod/android_kernel_bn_omap" path="kernel/bn/omap" remote="github" revision="cm-12.0" />
+
 </manifest>
