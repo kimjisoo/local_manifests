@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="kimjisoo/android_kernel_samsung_hlte" path="kernel/samsung/hlte" remote="github" revision="cm-12.0-staging-v1" />
+  <project name="kimjisoo/device_samsung_hlte-common" path="device/samsung/hlte-common" remote="github" revision="temasek-cm-12.0-jisoo_v1" />
 
   <project name="arter97/android_device_asus_flo" path="device/asus/flo" remote="github" revision="cm-12.0" />
   <project name="arter97/android_kernel_google_msm" path="kernel/google/msm" remote="github" revision="cm-12.0" />
@@ -8,16 +9,19 @@
 
   <project name="temasek/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-12.0" />
 
-  <project name="CyanogenMod/android_device_samsung_hlte" path="device/samsung/hlte" remote="github" />
-  <project name="CyanogenMod/android_device_samsung_hlte-common" path="device/samsung/hlte-common" remote="github" />
-  <project name="CyanogenMod/android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="github" />
+  <project name="temasek/android_device_samsung_hlte" path="device/samsung/hlte" remote="github" />
+  <project name="temasek/android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="github" />
+  <project name="temasek/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
+
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
-  <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
-  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
+  <project name="temasek/android_hardware_samsung" path="hardware/samsung" remote="github" />
 
   <project path="vendor/bn" name="TheMuppets/proprietary_vendor_bn" remote="github" revision="cm-12.0" />
   <project name="CyanogenMod/android_device_bn_ovation" path="device/bn/ovation" remote="github" revision="cm-12.0" />
   <project name="CyanogenMod/android_device_bn_common" path="device/bn/common" remote="github" revision="cm-12.0" />
   <project name="CyanogenMod/android_kernel_bn_omap" path="kernel/bn/omap" remote="github" revision="cm-12.0" />
 
+  <remove-project name="temasek/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="kimjisoo/packages_apps_Settings" remote="github" revision="temasek-cm-12.0-jisoo_v1" />
+  <!--<project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />-->
 </manifest>
