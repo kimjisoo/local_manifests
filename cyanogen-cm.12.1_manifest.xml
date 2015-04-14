@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="TheMuppets/proprietary_vendor_asus" path="vendor/asus" remote="github" />
+  <project name="CyanogenMod/android_device_asus_flo" path="device/asus/flo" remote="github" />
+  <project name="CyanogenMod/android_kernel_google_msm" path="kernel/google/msm" remote="github" />
+
+  <project name="kimjisoo/android_device_samsung_hlte" path="device/samsung/hlte" remote="github" revision="cm-12.1-jisoo" />
+
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" />
+
+  <project name="CyanogenMod/android_kernel_samsung_hlte" path="kernel/samsung/hlte" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_device_samsung_hlte-common" path="device/samsung/hlte-common" remote="github" />
+  <project name="CyanogenMod/android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="github" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
+  <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />-->
+  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
+
+  <remove-project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
+  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" remote="github" revision="cm-12.1-jisoo" />
+
+  <remove-project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="kimjisoo/packages_apps_Settings" remote="github" revision="cm-12.1-jisoo" />
+
+<!--
+  <project name="kimjisoo/android_kernel_samsung_hlte" path="kernel/samsung/hlte" remote="github" revision="cm-12.0-staging-v1" />
+
+  <project name="arter97/android_device_asus_flo" path="device/asus/flo" remote="github" revision="cm-12.0" />
+  <project name="arter97/android_kernel_google_msm" path="kernel/google/msm" remote="github" revision="cm-12.0" />
+  <project name="TheMuppets/proprietary_vendor_asus" path="vendor/asus" remote="github" />
+
+  <project name="temasek/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-12.0" />
+
+  <project name="temasek/android_device_samsung_hlte" path="device/samsung/hlte" remote="github" />
+  <project name="temasek/android_device_samsung_hlte-common" path="device/samsung/hlte-common" remote="github" />
+  <project name="temasek/android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="github" />
+  <project name="temasek/android_device_qcom_common" path="device/qcom/common" remote="github" />
+  <project name="temasek/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
+  <project name="temasek/android_hardware_samsung" path="hardware/samsung" remote="github" />
+
+  <project path="vendor/bn" name="proprietary_vendor_bn" remote="github_kimjisoo" revision="cm-12.0" />
+  <project name="temasek/android_device_bn_ovation" path="device/bn/ovation" remote="github" />
+  <project name="temasek/android_device_bn_common" path="device/bn/common" remote="github" />
+  <project name="temasek/android_kernel_bn_omap" path="kernel/bn/omap" remote="github" />
+-->
+
+
+</manifest>
+
+<!--
+  <project name="temasek/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-12.0" />
+  <project path="vendor/bn" name="proprietary_vendor_bn" remote="github_kimjisoo" revision="cm-12.0" />
+-->
