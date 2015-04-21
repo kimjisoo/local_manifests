@@ -19,5 +19,5 @@
   <project name="CyanogenMod/android_device_bn_ovation" path="device/bn/ovation" remote="github" />
   <project name="CyanogenMod/android_device_bn_common" path="device/bn/common" remote="github" />
   <project name="CyanogenMod/android_kernel_bn_omap" path="kernel/bn/omap" remote="github" />
-<
+
 </manifest>
