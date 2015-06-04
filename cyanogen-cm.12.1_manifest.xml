@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="TheMuppets/proprietary_vendor_asus" path="vendor/asus" remote="github" />
-  <project name="CyanogenMod/android_device_asus_flo" path="device/asus/flo" remote="github" />
   <project name="CyanogenMod/android_kernel_google_msm" path="kernel/google/msm" remote="github" />
+
+  <project name="CyanogenMod/android_device_asus_flo" path="device/asus/flo" remote="github" revision="cm-12.1" />
 
   <project name="CyanogenMod/android_device_bn_ovation" path="device/bn/ovation" remote="github" />
   <project name="CyanogenMod/android_device_bn_common" path="device/bn/common" remote="github" />
@@ -32,6 +33,9 @@
 
   <remove-project name="CyanogenMod/android_packages_apps_Trebuchet" />
   <project path="packages/apps/Trebuchet" name="kimjisoo/android_packages_apps_Trebuchet" remote="github" revision="cm-12.1" />
+
+  <remove-project name="CyanogenMod/android_packages_inputmethods_LatinIME" />
+  <project path="packages/inputmethods/LatinIME" name="kimjisoo/android_packages_inputmethods_LatinIME" remote="github" revision="cm-12.1" />
 
   <project path="packages/apps/OmniSwitch" name="kimjisoo/android_packages_apps_OmniSwitch" remote="github" revision="android-5.1" />
 
