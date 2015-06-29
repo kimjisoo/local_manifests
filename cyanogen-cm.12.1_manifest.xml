@@ -20,10 +20,10 @@
   <project name="kimjisoo/device_samsung_hlte-common" path="device/samsung/hlte-common" remote="github" revision="cm-12.1-jisoo" />
 
   <remove-project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
-  <project path="frameworks/base" name="kimjisoo/frameworks_base" remote="github" revision="cm-12.1-jisoo_v1" />
+  <project path="frameworks/base" name="kimjisoo/frameworks_base" remote="github" revision="cm-12.1-jisoo_v3" />
 
   <remove-project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="kimjisoo/packages_apps_Settings" remote="github" revision="cm-12.1-jisoo_v1" />
+  <project path="packages/apps/Settings" name="kimjisoo/packages_apps_Settings" remote="github" revision="cm-12.1-jisoo_v3" />
 
   <remove-project path="frameworks/av" name="CyanogenMod/android_frameworks_av" />
   <project path="frameworks/av" name="kimjisoo/frameworks_av" remote="github" revision="cm-12.1-jisoo_v1" />
@@ -40,42 +40,6 @@
   <project path="packages/apps/OmniSwitch" name="kimjisoo/android_packages_apps_OmniSwitch" remote="github" revision="android-5.1" />
 
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
-
-<!--  <project path="packages/apps/SlimLauncher" name="kimjisoo/android_packages_apps_LauncherPi" remote="github" revision="slim_temp" />-->
-
-<!--
-  <remove-project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
-  <project path="frameworks/base" name="kimjisoo/frameworks_base" remote="github" revision="temp_2" />
-
-  <remove-project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="kimjisoo/packages_apps_Settings" remote="github" revision="temp_2" />
-
--->
-<!--
-  <project name="kimjisoo/android_kernel_samsung_hlte" path="kernel/samsung/hlte" remote="github" revision="cm-12.0-cm-12.1-jisoo_v1-v1" />
-
-  <project name="arter97/android_device_asus_flo" path="device/asus/flo" remote="github" revision="cm-12.0" />
-  <project name="arter97/android_kernel_google_msm" path="kernel/google/msm" remote="github" revision="cm-12.0" />
-  <project name="TheMuppets/proprietary_vendor_asus" path="vendor/asus" remote="github" />
-
-  <project name="temasek/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-12.0" />
-
-  <project name="temasek/android_device_samsung_hlte" path="device/samsung/hlte" remote="github" />
-  <project name="temasek/android_device_samsung_hlte-common" path="device/samsung/hlte-common" remote="github" />
-  <project name="temasek/android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="github" />
-  <project name="temasek/android_device_qcom_common" path="device/qcom/common" remote="github" />
-  <project name="temasek/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
-  <project name="temasek/android_hardware_samsung" path="hardware/samsung" remote="github" />
-
-  <project path="vendor/bn" name="proprietary_vendor_bn" remote="github_kimjisoo" revision="cm-12.0" />
-  <project name="temasek/android_device_bn_ovation" path="device/bn/ovation" remote="github" />
-  <project name="temasek/android_device_bn_common" path="device/bn/common" remote="github" />
-  <project name="temasek/android_kernel_bn_omap" path="kernel/bn/omap" remote="github" />
--->
-
+  <remove-project name="CyanogenMod/android_packages_apps_CMAccount" />
 
 </manifest>
-
-<!--
-  <project name="temasek/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-12.0" />
--->
