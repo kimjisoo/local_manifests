@@ -9,10 +9,10 @@
   <project path="vendor/cmsdk" name="kimjisoo/cm_platform_sdk" remote="github" />
 
   <remove-project name="CyanogenMod/android_frameworks_base" />
-  <project path="frameworks/base" name="kimjisoo/android_frameworks_base" remote="github" />
+  <project path="frameworks/base" name="kimjisoo/android_frameworks_base" remote="github" revision="cm-13.0" />
 
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="kimjisoo/android_packages_apps_Settings" remote="github" />
+  <project path="packages/apps/Settings" name="kimjisoo/android_packages_apps_Settings" remote="github" revision="cm-13.0" />
 
   <remove-project name="CyanogenMod/android_packages_inputmethods_LatinIME" />
   <project path="packages/inputmethods/LatinIME" name="kimjisoo/android_packages_inputmethods_LatinIME" remote="github" />
@@ -30,30 +30,19 @@
   <project path="packages/apps/InCallUI" name="kimjisoo/android_packages_apps_InCallUI" remote="github" revision="cm-13.0" />
 
   <project path="packages/apps/OmniSwitch" name="kimjisoo/android_packages_apps_OmniSwitch" remote="github" revision="android-6.0" />
-  <project path="frameworks/opt/cards" name="kimjisoo/frameworks_opt_cards" remote="github" revision="cm-13.0" />
+
+  <remove-project name="CyanogenMod/android_packages_services_LiveLockScreenService" />
 
 <!--for hammerhead and bullhead-->
-  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" />
+  <project name="kimjisoo/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" />
   <project name="CyanogenMod/android_device_lge_bullhead" path="device/lge/bullhead" remote="github" />
-  <project name="CyanogenMod/android_kernel_lge_bullhead" path="kernel/lge/bullhead" remote="github" />
+  <project name="kimjisoo/android_kernel_lge_bullhead" path="kernel/lge/bullhead" remote="github" revision="cm-13.0-x" />
 
 <!--for flo -->
   <project name="TheMuppets/proprietary_vendor_asus" path="vendor/asus" remote="github" />
   <project name="CyanogenMod/android_device_asus_flo" path="device/asus/flo" remote="github" />
   <project name="CyanogenMod/android_kernel_google_msm" path="kernel/google/msm" remote="github" />
-
-<!--kanged from tema for hlte -->
-  <project name="kimjisoo/android_device_samsung_hlte/" path="device/samsung/hlte" remote="github" revision="cm-13.0" />
-  <project name="kimjisoo/android_device_samsung_hlte-common/" path="device/samsung/hlte-common" remote="github" revision="cm-13.0" />
-  <project name="kimjisoo/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-13.0" />
-  <project name="kimjisoo/android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="github" revision="cm-13.0" />
-<!--  <project name="kimjisoo/android_kernel_samsung_hlte/" path="kernel/samsung/hlte" remote="github" revision="temp" />-->
-  <project name="temasek/android_kernel_samsung_hlte/" path="kernel/samsung/hlte" remote="github" revision="m" />
-  <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-13.0" />
-  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-13.0" />
-  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-13.0" />
-  <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" revision="cm-13.0" />
 
 </manifest>
